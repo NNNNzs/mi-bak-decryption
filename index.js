@@ -1,7 +1,7 @@
 /**
  * 小米备份文件解密工具 - 主入口
  * 
- * @author Claude
+ * @author NNNNzs
  * @version 2.2.0
  */
 

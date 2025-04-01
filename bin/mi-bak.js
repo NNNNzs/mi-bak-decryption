@@ -3,7 +3,7 @@
 /**
  * 小米备份文件解密工具 - 命令行入口
  * 
- * @author Claude
+ * @author NNNNzs
  * @version 2.2.0
  */
 
