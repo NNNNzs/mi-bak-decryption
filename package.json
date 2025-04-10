@@ -1,10 +1,14 @@
 {
   "name": "@nnnnzs/mi-bak",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "小米备份文件解密和解压工具",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NNNNzs/mi-bak-decryption.git"
+  },
   "bin": {
-    "mi-bak": "./bin/mi-bak.js"
+    "@nnnnzs/mi-bak": "./bin/mi-bak.js"
   },
   "scripts": {
     "start": "node ./bin/mi-bak.js",

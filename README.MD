@@ -22,7 +22,7 @@
 ### 全局安装
 
 ```bash
-npm install -g mi-bak-decryption
+npm install -g @nnnnzs/mi-bak
 ```
 
 ### 使用 npx 运行
@@ -30,14 +30,14 @@ npm install -g mi-bak-decryption
 无需安装，直接使用 npx 运行：
 
 ```bash
-npx mi-bak-decryption decrypt <输入文件路径>
+npx @nnnnzs/mi-bak decrypt <输入文件路径>
 ```
 
 ### 从源码安装
 
 ```bash
-git clone https://github.com/yourusername/mi-bak-decryption.git
-cd mi-bak-decryption
+git clone https://github.com/NNNNzs/mi-bak-decryption.git
+cd mi-bak
 npm install
 npm link  # 可选，创建全局命令链接
 ```
@@ -136,7 +136,7 @@ mi-bak process backup.bak -k                 # 保留临时文件
 ## 项目结构
 
 ```
-mi-bak-decryption/
+mi-bak/
 ├── bin/
 │   └── mi-bak.js       # 命令行入口
 ├── lib/
